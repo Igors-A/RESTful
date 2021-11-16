@@ -25,11 +25,11 @@ class Agame():#a game class, its "legacy" class as it was repurposed from storin
         out = cur.fetchall()
         thegame = fromtupletodicofdb(out[0])
         genres = thegame['genres'].split(';')#for recommendation getting
-        #коммент ниже можно удалить
-        """this was added because one of the games had this tag. The game, which names I tested, had 1% of 'Sexual Content',
-        but it was enough for sqlite to present a lot of possibly pornographic games"""
         #command generation
         if 'Sexual Content' in genres:
+            # коммент ниже можно удалить
+            """this was added because one of the games had this tag. The game, which names I tested, had 1% of 'Sexual Content',
+            but it was enough for sqlite to present a lot of possibly pornographic games"""
             genres.remove('Sexual Content')
         command = "SELECT * FROM games WHERE (column10 LIKE \'%"+genres[0]+"%\'"
         if(len(genres)>1):
