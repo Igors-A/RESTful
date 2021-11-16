@@ -9,6 +9,7 @@ import sqlite3, json
 app = Flask(__name__)#set ups Flask-based server
 api = Api(app)
 con = sqlite3.connect('sources/steam1.db', check_same_thread=False)#connects to database
+#здесь я использовал SQLiteStudio(3.3.0). Если вместо игр краказябры, напиши, пошлю оригинал, а я спать(4:53)
 cur = con.cursor()
 cur.execute("SELECT * FROM games LIMIT 1")
 top = cur.fetchall()[0]#get keys for json/dictionary in order to sort information about the game from steam1.db
