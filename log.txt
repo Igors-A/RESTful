@@ -1,0 +1,20 @@
+2021-11-16 23:02:22,202  * Restarting with stat
+2021-11-16 23:02:22,514  * Debugger is active!
+2021-11-16 23:02:22,514  * Debugger PIN: 342-606-660
+2021-11-16 23:02:22,514  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-16 23:02:37,850  * Restarting with stat
+2021-11-16 23:02:38,132  * Debugger is active!
+2021-11-16 23:02:38,147  * Debugger PIN: 342-606-660
+2021-11-16 23:02:38,147  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-16 23:05:48,199 127.0.0.1 - - [16/Nov/2021 23:05:48] "[33mGET / HTTP/1.1[0m" 404 -
+2021-11-16 23:05:48,281 127.0.0.1 - - [16/Nov/2021 23:05:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-11-16 23:06:03,293 127.0.0.1 - - [16/Nov/2021 23:06:03] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-16 23:06:38,048 127.0.0.1 - - [16/Nov/2021 23:06:38] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-16 23:06:41,033 127.0.0.1 - - [16/Nov/2021 23:06:41] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-16 23:06:44,057 127.0.0.1 - - [16/Nov/2021 23:06:44] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-16 23:19:10,607 127.0.0.1 - - [16/Nov/2021 23:19:10] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-16 23:41:56,402  * Detected change in 'C:\\Users\\itapp\\PycharmProjects\\RESTful\\server2.py', reloading
+2021-11-16 23:41:56,428  * Restarting with stat
+2021-11-16 23:41:56,808  * Debugger is active!
+2021-11-16 23:41:56,812  * Debugger PIN: 342-606-660
+2021-11-16 23:41:56,819  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
