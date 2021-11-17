@@ -6,7 +6,7 @@ from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 import sqlite3, json, logging
 
-logging.basicConfig(filename='log.txt', filemode='a', level=logging.INFO, format='%(asctime)s %(message)s')
+logging.basicConfig(filename='log.txt', filemode='a', level=logging.DEBUG, format='%(asctime)s %(message)s')
 app = Flask(__name__)  # set ups Flask-based server
 api = Api(app)
 con = sqlite3.connect('sources/gamedatas.db', check_same_thread=False)  # connects to database
@@ -14,9 +14,8 @@ cur = con.cursor()
 cur.execute("SELECT * FROM games LIMIT 1")
 top = cur.fetchall()[0]  # get keys for json/dictionary in order to sort information about the game from steam1.db
 
-
-# steam1.db was created from steam.csv, which can be openly received from https://www.kaggle.com/nikdavis/steam-store-games?select=steam.csv
-# steam1.db was slightly modified adding with appr. 5 games
+# gamedatas.db was created from steam.csv, which can be openly received from https://www.kaggle.com/nikdavis/steam-store-games?select=steam.csv
+# gamedatas.db was slightly modified adding with more recent than data version appr. 5 games
 
 def fromtupletodicofdb(t):  # function which basically explaining creates dictionary from tuple
     thegame = {}
@@ -28,6 +27,7 @@ def fromtupletodicofdb(t):  # function which basically explaining creates dictio
 
 class Agame():  # a game class, its "legacy" class as it was repurposed from storing 1 game into storing 1 game and 3 recommendations
     def __init__(self, game):
+        logging.debug('Received title: ' + game)
         if '\'' in game:
             game = game[:game.index('\'')] + '\'' + game[game.index('\''):]
         cur.execute("SELECT * FROM games WHERE column2=" + "\'" + game + "\'")  # searches a game
@@ -64,7 +64,7 @@ class Agame():  # a game class, its "legacy" class as it was repurposed from sto
                 out.append(el)
         arr = []
         # random recommentations from array
-        for i in range(0, 6):
+        for i in range(0, 5):
             j = random.randint(0, len(out) - 1)
             arr.append(fromtupletodicofdb(out[j]))
         getout = {

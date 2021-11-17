@@ -18,3 +18,65 @@
 2021-11-16 23:41:56,808  * Debugger is active!
 2021-11-16 23:41:56,812  * Debugger PIN: 342-606-660
 2021-11-16 23:41:56,819  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-17 01:14:00,147  * Restarting with stat
+2021-11-17 01:14:00,508  * Debugger is active!
+2021-11-17 01:14:00,512  * Debugger PIN: 342-606-660
+2021-11-17 01:14:00,520  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-17 01:14:20,121 127.0.0.1 - - [17/Nov/2021 01:14:20] "[33mGET / HTTP/1.1[0m" 404 -
+2021-11-17 01:14:23,826 Created dictionary for Counter-Strike
+2021-11-17 01:14:25,683 Created dictionary for A Virus Named TOM
+2021-11-17 01:14:25,684 Created dictionary for P-3 Biotic
+2021-11-17 01:14:25,684 Created dictionary for Neon Chrome
+2021-11-17 01:14:25,684 Created dictionary for Armed Warrior VR
+2021-11-17 01:14:25,684 Created dictionary for Elly The Jelly
+2021-11-17 01:14:25,684 Created dictionary for Save Your Mother
+2021-11-17 01:14:25,690 127.0.0.1 - - [17/Nov/2021 01:14:25] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-17 01:16:24,924  * Restarting with stat
+2021-11-17 01:16:25,265  * Debugger is active!
+2021-11-17 01:16:25,268  * Debugger PIN: 342-606-660
+2021-11-17 01:16:25,276  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-17 01:16:28,799 127.0.0.1 - - [17/Nov/2021 01:16:28] "[35m[1mGET /sent/Counter-Strike HTTP/1.1[0m" 500 -
+2021-11-17 01:16:28,854 127.0.0.1 - - [17/Nov/2021 01:16:28] "[37mGET /sent/Counter-Strike?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-11-17 01:16:28,857 127.0.0.1 - - [17/Nov/2021 01:16:28] "[37mGET /sent/Counter-Strike?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-11-17 01:16:28,857 127.0.0.1 - - [17/Nov/2021 01:16:28] "[37mGET /sent/Counter-Strike?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-11-17 01:16:28,912 127.0.0.1 - - [17/Nov/2021 01:16:28] "[37mGET /sent/Counter-Strike?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-11-17 01:16:28,931 127.0.0.1 - - [17/Nov/2021 01:16:28] "[37mGET /sent/Counter-Strike?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-11-17 01:16:28,958 127.0.0.1 - - [17/Nov/2021 01:16:28] "[37mGET /sent/Counter-Strike?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-11-17 01:16:47,702  * Restarting with stat
+2021-11-17 01:16:48,043  * Debugger is active!
+2021-11-17 01:16:48,046  * Debugger PIN: 342-606-660
+2021-11-17 01:16:48,053  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-17 01:16:49,858 Received Counter-Strike
+2021-11-17 01:16:49,867 Created dictionary for Counter-Strike
+2021-11-17 01:16:51,753 Created dictionary for Sleight
+2021-11-17 01:16:51,753 Created dictionary for LEGO® City Undercover
+2021-11-17 01:16:51,753 Created dictionary for OH MY GOD, LOOK AT THIS KNIGHT
+2021-11-17 01:16:51,753 Created dictionary for Cold Blooded Cube
+2021-11-17 01:16:51,753 Created dictionary for Earth Defense Force: Insect Armageddon
+2021-11-17 01:16:51,753 Created dictionary for Templar Battleforce
+2021-11-17 01:16:51,760 127.0.0.1 - - [17/Nov/2021 01:16:51] "[37mGET /sent/Counter-Strike HTTP/1.1[0m" 200 -
+2021-11-17 01:20:18,370  * Detected change in 'C:\\Users\\itapp\\PycharmProjects\\RESTful\\server2.py', reloading
+2021-11-17 01:20:18,394  * Restarting with stat
+2021-11-17 01:20:18,728  * Debugger is active!
+2021-11-17 01:20:18,731  * Debugger PIN: 342-606-660
+2021-11-17 01:20:18,739  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-17 01:47:42,410  * Detected change in 'C:\\Users\\itapp\\PycharmProjects\\RESTful\\server2.py', reloading
+2021-11-17 01:47:42,431  * Restarting with stat
+2021-11-17 01:47:42,780  * Debugger is active!
+2021-11-17 01:47:42,783  * Debugger PIN: 342-606-660
+2021-11-17 01:47:42,791  * Running on http://127.0.0.1:7575/ (Press CTRL+C to quit)
+2021-11-17 01:48:10,192 Received title: Heroes of Might & Magic V
+2021-11-17 01:48:10,202 Created dictionary for Heroes of Might & Magic V
+2021-11-17 01:48:10,502 Created dictionary for WESTSLINGERS
+2021-11-17 01:48:10,502 Created dictionary for It's a Trap
+2021-11-17 01:48:10,502 Created dictionary for Dogs of War Online
+2021-11-17 01:48:10,511 Created dictionary for Command: The Silent Service
+2021-11-17 01:48:10,514 127.0.0.1 - - [17/Nov/2021 01:48:10] "[37mGET /sent/Heroes%20of%20Might%20&%20Magic%20V HTTP/1.1[0m" 200 -
+2021-11-17 01:48:30,469 Received title: Don't Starve
+2021-11-17 01:48:30,477 Created dictionary for Don't Starve
+2021-11-17 01:48:30,586 Created dictionary for Theseus: Journey to Athens
+2021-11-17 01:48:30,587 Created dictionary for Castles
+2021-11-17 01:48:30,587 Created dictionary for Hollow Steps
+2021-11-17 01:48:30,587 Created dictionary for Lost in the tomb
+2021-11-17 01:48:30,587 Created dictionary for Joe Dever's Lone Wolf HD Remastered
+2021-11-17 01:48:30,590 127.0.0.1 - - [17/Nov/2021 01:48:30] "[37mGET /sent/Don't%20Starve HTTP/1.1[0m" 200 -
